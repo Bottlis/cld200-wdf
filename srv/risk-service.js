@@ -17,7 +17,7 @@ module.exports = cds.service.impl(async function () {
         risks.forEach((risk) => {
             if (risk.impact >= 100000) {
                 risk.criticality = 1;
-            } else if (risk.impact > 10000 ) {
+            } else if (risk.impact > 11000 ) {
                 risk.criticality = 2;
             } else {
                 risk.criticality = 3;
